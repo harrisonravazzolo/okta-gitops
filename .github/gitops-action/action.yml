@@ -55,5 +55,4 @@ runs:
       working-directory: ${{ inputs.working-directory }}
       env:
         FLEET_DRY_RUN_ONLY: ${{ inputs.dry-run-only }}
-        FLEET_DELETE_OTHER_TEAMS: ${{ inputs.delete-other-teams }}
       run: ./gitops.sh
